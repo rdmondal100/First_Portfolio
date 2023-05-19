@@ -1,0 +1,50 @@
+
+
+.container {
+    /* display: flex; */
+}
+
+.contactform {
+    font-family: 'Fira Sans', sans-serif;
+    padding:0 34px ;
+    padding-top:134px ;
+    margin-left: 37vh;
+
+}
+
+.contactform h1 {
+    font-family: "Source Code Pro", monospace;
+    margin: 3% -3%;
+    padding: 0% 4%;
+    font-weight: bolder;
+
+}
+.writenInput{
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+    border-radius: 10px;
+}
+.writenInput input{
+    width: 26vw;
+    border-radius: 6px;
+    margin: 6px 0px;
+    padding: 4px;
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: #999;
+    margin:0 8px;
+    width: 17vw;
+}
+
+#clientEnquiry{
+    height: 15vh;
+}
+
+body {
+    overflow-x: hidden;
+  }
+  

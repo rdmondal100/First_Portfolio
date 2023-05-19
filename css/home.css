@@ -1,0 +1,52 @@
+
+
+ .container {
+     display: flex;
+ }
+
+ .infoContainer {
+     /* background-color: blueviolet; */
+     height: 58vh;
+     width: 80vw;
+     margin: 147px auto;
+     display: flex;
+     justify-content: space-around;
+     margin-left: 37vh;
+ }
+
+ .devPic img {
+     height: 58vh;
+ }
+
+ .devInfo {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     font-family: 'Source Code Pro', monospace;
+
+
+
+ }
+
+ .hello {
+     font-size: 55px;
+
+ }
+
+ .name {
+     font-size: 40px;
+     font-weight: bold;
+     font-family: 'Fira Sans', sans-serif;
+
+ }
+
+ .about {
+     font-size: 30px;
+ }
+
+ .moreabout {
+     font-size: 16px;
+     font-family: 'Fira Sans', sans-serif;
+     margin-top: 25px;
+ }
+

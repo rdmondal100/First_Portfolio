@@ -1,0 +1,9 @@
+
+.container {
+    display: flex;
+}
+
+.services{
+    margin-left: 35vh;
+    margin-top: 8vh;
+}

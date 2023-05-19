@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riday Mondal - Web Developer, Programmer</title>
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar sidebarGo">
+        <nav>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/intro.html">My Intro</a></li>
+            <li><a href="/services.html">Services</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/contact.html">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="main">
+        <div class="hamburger">
+          <img class="ham" src="img/ham.png" alt="Menue pic" width="23px">
+          <img class="cross" src="img/cross.png" alt="Cross pic" width="23px">
+        </div>
+        <div class="contactform">
+            <h1>Contact me for work/general enquiries</h1>
+            <form>
+                <div class="writenInput">
+                  <label for="ClientName" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="ClientName" aria-describedby="emailHelp">
+                </div>
+                <div class="writenInput">
+                  <label for="ClientEmail" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="ClientEmail" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your Email and Phone Number with anyone else.</div>
+                </div>
+                <div class="writenInput">
+                  <label for="clientPhone" class="form-label">Phone Number</label>
+                  <input type="phone" class="form-control" id="clientPhone">
+                </div>
+                <div class="writenInput">
+                  <label for="clientEnquiry" class="form-label">General Enquiry</label>
+                  <input type="phone" class="form-control" id="clientEnquiry">
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="isClient">
+                  <label class="form-check-label" for="isClient">I want you to work on a project with me</label>
+                </div>
+                <button type="submit" class="btn-sm">Submit</button>
+              </form>
+
+        </div>
+        
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Unbounded:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+
+.sidebar {
+    position:absolute;
+    background-color: rgb(207, 191, 191);
+    /* width: 250px; */
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+    height: 100vh;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+
+}
+
+.sidebar nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* main */
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+
+
+/* big button */
+.buttons button {
+    padding: 8px;
+    margin: 0 10px;
+    border-radius: 40px;
+    color: whitesmoke;
+    background-color: rgb(2, 78, 255);
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    cursor: pointer;
+
+}
+
+.buttons button:hover {
+    background-color: rgb(253, 253, 253);
+    color: rgb(2, 78, 255);
+}
+
+.buttons {
+    margin-top: 34px;
+
+}
+
+/* small buttons */
+.btn-sm:hover{
+    background-color: rgb(253, 253, 253);
+    color: rgb(2, 78, 255);
+}
+
+.btn-sm {
+    margin-top: 34px;
+
+}
+.btn-sm{
+    padding: 3px 0px;
+    margin: 1 2px;
+    border-radius: 40px;
+    color: whitesmoke;
+    background-color: rgb(2, 78, 255);
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Fira Sans', sans-serif;
+    cursor: pointer;
+    width: 90px;
+    height: 28px;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    flex: wrap !important;
+    margin-left: 10px;
+}
+
+
+/* for responsiveness */
+.sidebarGo{
+    transform:translate(-250px,0px) ;
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+    top: 10px;
+    transition: transform 0.3s ease-out;
+}
+.cross{
+    position: absolute;
+    left: 160px;
+    transition: transform 0.5s ease-out;
+}
+.ham{
+    margin-top: 10px;
+    transition: transform 0.5s ease-out;
+}
+
+
+@media (max-width:1500px){
+    .infoContainer{
+        align-items: baseline;
+        display: flex;
+        margin-left: 3vh;
+
+    }
+    .blogContainer{
+        margin-left: 3vh;
+    }
+    .devPic{
+        display: none;
+    }
+    .sidebarGo{
+        position: absolute;
+
+    }
+    .contactform {
+       
+        margin-left: 13%;
+        margin-top: -12%;
+    
+    }
+    .buttons button {
+        margin: 8px;
+    
+    }
+    form{
+        /* position: relative; */
+        left: 25px;
+    }
+    .writenInput input{
+        width: 42vw;
+    }
+    .introContainer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3vh;
+        position: initial;
+        margin-top: 7vh!important;
+    
+    }
+    .services{
+        margin-left: 8vh!important;
+        margin-top: 8vh!important;
+    }
+}
